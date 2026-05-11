@@ -55,7 +55,6 @@ ol {
 
 .content {
   width: 1140px;
-  height: 534px;
   gap: 30px;
   display: flex;
   align-items: flex-end;
@@ -139,6 +138,7 @@ ol {
 }
 
 .content__video-card-title {
+  width: 200px;
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
   font-weight: 700;
@@ -235,7 +235,7 @@ ol {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-weight: 700;
-
+  height: 34px;
   cursor: pointer;
   appearance: none;
 }
@@ -250,14 +250,11 @@ ol {
 
 .search-form__submit-button {
   width: 194px;
-  height: 34px;
-
   align-self: flex-end;
 }
 
 .more-button {
   width: 100%;
-  height: 34px;
 }
 
 .content__card-link {
