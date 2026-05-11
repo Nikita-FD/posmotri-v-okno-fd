@@ -68,8 +68,11 @@ ol {
 }
 
 .content__list-container {
-  height: 298px;
+  height: 534px;
   overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 
 }
 
@@ -95,14 +98,6 @@ ol {
 }
 
 .content__list {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.content__list-container {
-  height: 534px;
-  overflow: auto;
   display: flex;
   flex-direction: column;
   gap: 30px;
